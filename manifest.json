@@ -1,0 +1,15 @@
+{
+    "name": "com.ubuntu.developer.bobo1993324.qmlguitartuner",
+    "description": "Play sound for six strings on Guitar.",
+    "framework": "ubuntu-sdk-14.04-qml-dev1",
+    "architecture": "all",
+    "title": "qmlGuitarTuner",
+    "hooks": {
+        "qmlGuitarTuner": {
+            "apparmor": "qmlGuitarTuner.json",
+            "desktop": "qmlGuitarTuner.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Boren Zhang <bobo1993324@gmail.com>"
+}
